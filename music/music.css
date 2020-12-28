@@ -1,0 +1,97 @@
+*{
+    margin: 0%; padding: 0%; 
+}
+body {
+    
+}
+.music {
+ width: 100vw;
+ height: 100vh;
+ background-color: green  ;
+ display: grid;
+place-items: center;
+ 
+
+
+}
+.music3 {
+    padding-top: 20px;
+    width: 390px;
+    height: 35rem;
+    background-color: lightcoral;
+
+    border-radius: 2rem;
+    box-shadow: 0rem 10rem 20rem 10rem rgba(0, 255,0 , 0.60 ) ;
+    text-align: center;
+}
+.music3 #title   {
+
+     text-transform: uppercase;
+     letter-spacing: initial;
+     word-spacing: 1rem;
+     font-size: 2rem;
+     text-shadow: 0rem 10rem 20rem rgba(0, 0, 0, 0.247) ;
+     color: black;
+
+}
+.music3 #artist {
+   
+    font-size: 2rem;
+    text-shadow: 0rem 10rem 20rem rgba(0, 0, 0, 0.247) ;
+    color: lightgrey;
+
+}
+.img {
+    width: 25rem;
+    height: 25rem;
+}
+   img  {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+.control  {
+    color: black;
+    margin-left: 10%;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.control  #play  {
+    
+
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: white;
+  background-color: black;
+
+}
+.control #play:hover {
+   background-color: white ;
+   color: black;
+}
+.control #prev {
+    font-size: x-large ;
+}
+.control #next  {
+    font-size: x-large;
+}
+.anime {
+    animation: rotateplayer 3s linear  infinite ;
+
+}
+@keyframes rotateplayer {
+    from { 
+        transform: rotate(0deg);
+     }
+     to {
+         transform: rotate(   360deg );
+     }
+}
